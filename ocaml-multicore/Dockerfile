@@ -1,4 +1,4 @@
-FROM ubuntu:utopic
+FROM ubuntu:vivid
 
 # ADD apt-http-proxy /etc/apt/apt.conf.d/
 ENV HOME /root
