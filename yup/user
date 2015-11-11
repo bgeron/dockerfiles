@@ -1,0 +1,4 @@
+#!/bin/bash
+
+set -x
+sudo -Hu user fish --login
