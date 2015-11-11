@@ -1,6 +1,6 @@
 FROM ubuntu:wily
 
-ADD apt-http-proxy /etc/apt/apt.conf.d/
+#ADD apt-http-proxy /etc/apt/apt.conf.d/
 ENV HOME /root
 RUN apt update && apt install -y aptitude && apt-get clean
 
