@@ -14,6 +14,7 @@ RUN apt install -y vim fish sloccount byobu && apt-get clean
 
 ### Software engineering tools ###
 
+RUN apt install -y build-essential && apt-get clean
 RUN apt install -y mercurial git git-man && apt-get clean
 
 # Remove unnecessary packages
